@@ -2,7 +2,6 @@
 
 :root {
   --yellow: #f5df4e;
-  --yellow:red;
   --black: #252b33;
   --body-color: #212529;
   --icons-color: #4e5559;
@@ -763,6 +762,11 @@ meter::-webkit-meter-optimum-value {
     position: absolute;
     left: 40%;
     top: 40%;
+    font-size: 24px;
+  }
+  .long-name{
+    left: 30%;
+
   }
   .texto:hover{
     color: white;

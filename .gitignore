@@ -1,4 +1,25 @@
+#images
+.images
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+
+/utils
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .gitignore
 
-
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+utils
