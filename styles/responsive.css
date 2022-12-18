@@ -1,0 +1,211 @@
+.inactive {
+  display: none;
+}
+
+.hamburguer {
+  display: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+@media(max-width:1100px) {
+  meter {
+    width: 400px;
+  }
+
+  .idiomas {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+  }
+
+}
+
+@media(max-width:1000px) {
+  .idiomas {
+    display: block;
+  }
+  .nav-header {
+    display: none;
+
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  header {
+    justify-content: space-around;
+
+  }
+
+  .section-banner {
+    height: 120vh;
+    justify-content: center;
+
+  }
+
+  .section-banner-box {
+    flex-direction: column-reverse;
+
+
+
+  }
+
+  .freelancer-box {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .know-me-more {
+    height: 100%;
+  }
+
+  .callum-smith-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid; */
+    gap: 2em;
+    justify-content: center;
+
+  }
+
+  .callum-1st-box p {
+    padding-right: 0px;
+  }
+
+  .box-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .items-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-i-do {
+    height: 100%;
+  }
+
+  .resume-list {
+    flex-direction: column;
+  }
+
+  .resume-list-box {
+    min-width: 100%;
+  }
+
+  .my-skills-meters {
+    flex-direction: column;
+  }
+
+  .freelancer-box {
+    width: 100%;
+
+  }
+
+  .what-i-card {
+    width: 90%;
+  }
+
+  .get-in-touch {
+    flex-direction: column;
+    padding: 0px;
+    height: 100%;
+  }
+
+  .know-me-details {
+    justify-content: space-around;
+  }
+}
+
+@media(max-width:700px) {
+  .developer {
+    font-size: 76px;
+    font-weight: 600;
+  }
+
+  .freelancer-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .callum-1st-box {
+    width: 100%;
+  }
+
+  .callum-2do-box {
+    margin-right: 0px;
+  }
+
+  .know-me-details {
+    width: 100%;
+  }
+
+  /* meter{width: 100%;} */
+  .portfolio-nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+}
+
+
+
+@media(max-width:500px) {
+  header {
+    padding: 0px;
+
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  .main-profile-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .developer {
+    font-size: 46px;
+    font-weight: 600;
+  }
+
+  .know-me-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-box h2 {
+    text-align: center;
+  }
+}
+
+@media(max-width:430px) {
+  .freelancer-box-contact {
+    flex-direction: column;
+  }
+
+  .portofolio-boxes img {
+    width: 100%;
+  }
+
+  .portofolio-boxes {
+    margin: 30px;
+  }
+
+  meter {
+    width: 260px;
+  }
+
+  .logo-box p {
+    font-size: 21px;
+  }
+}

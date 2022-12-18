@@ -1,0 +1,35 @@
+.contenedor-img{
+/* position: relative; */
+/* width: 25%; */
+}
+
+.imagen-fondo{
+  display: block;
+  width: 100%;
+}
+.contenedor-texto{
+  position:absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+
+}
+.contenedor-img:hover .contenedor-texto{
+  opacity: 1;
+  background-color: rgba(0,0,0,.5);
+}
+.texto{
+  color: white;
+
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+.texto:hover{
+  color: white;
+}
