@@ -26,7 +26,7 @@ Para la creacion de este proyecto se utilizo:
 
 Se puede ver el proyecto aqui:
 
-[Salitre](https://salitre.netlify.app)
+[Portfolio](https://gabino2395.github.io/portfolio/)
 
   
    
